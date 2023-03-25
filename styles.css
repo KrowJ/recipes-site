@@ -1,6 +1,6 @@
 body {
     background: bisque;
-
+    margin: 0;
 }
 
 ul {
@@ -10,20 +10,24 @@ ul {
 }
 
 li {
-margin: 15px 0;
+margin: 0;
 list-style-type: none;
+padding: 5px;
 }
 
 .title {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 0;
+    background: rgb(211, 170, 131);
+    padding: 10px;
 }
 
 .box {
     display: flex;
     justify-content: center;
+    
 }
 
 .box2 {
@@ -40,15 +44,37 @@ list-style-type: none;
     margin-right: 80px;
 }
 
-.image {
+.image1 {
     width: 450px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.image2 {
+    width: 450px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .button {
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(242, 195, 138);
+    background: rgb(242, 195, 138);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.instruction-menu {
+    background: rgb(211, 170, 131);
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.boxbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
