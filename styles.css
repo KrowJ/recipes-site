@@ -1,6 +1,7 @@
 body {
     background: bisque;
     margin: 0;
+    text-align: center;
 }
 
 ul {
@@ -14,6 +15,7 @@ margin: 0;
 list-style-type: none;
 padding: 5px;
 }
+
 
 .title {
     display: flex;
@@ -77,4 +79,10 @@ padding: 5px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+.steps-container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
 }
